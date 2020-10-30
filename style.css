@@ -27,18 +27,18 @@ body{
 }
 .logo h5{
     position: absolute;
-    left:800px;
+    left:820px;
     top:55px;
 }
 .info {
     position: absolute;
-    left:1230px;
-    top:15px;
+    left:1330px;
+    top:17px;
 }
 .info1 {
     position: absolute;
-    left:1250px;
-    top:36px;
+    left:1350px;
+    top:38px;
 }
 
 ul li{
@@ -63,14 +63,14 @@ header{
 }
 .offer{
     position: absolute;
-    left:900px;
+    left:1050px;
     top:150px;
 }
 .A{
     color: rgb(233, 70, 41);
     font-size: medium;
     position: absolute;
-    left:795px;
+    left:995px;
     top:200px;
 }
 .B{
@@ -94,6 +94,7 @@ ul li a{
 }
 .topic{
     color: cornsilk;
+    text-align:centre;
     font-size: medium;
     margin-left: 3px;
     font-family: 'Shadows Into Light', cursive;
