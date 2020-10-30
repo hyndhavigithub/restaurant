@@ -3,8 +3,6 @@
 }
 body{
     background-color: black;
-    background-image: url(https://www.mia-online.org/wp-content/uploads/2019/11/images3279-5dd6c8240bb2f-1024x967.jpg);
-    height: 200px;;
 }
 .logo img{
     
@@ -54,13 +52,31 @@ ul li.active a{
     color: rgb(5, 0, 0);
 }
 nav a{
-    color: white;
+    color: black;
 }
 header{
     padding-bottom : 10px; 
     background-color: black;
 }
-
+.offer{
+    position: absolute;
+    left:900px;
+    top:150px;
+}
+.A{
+    color: rgb(233, 70, 41);
+    font-size: medium;
+    position: absolute;
+    left:775px;
+    top:200px;
+}
+.B{
+    color:rgb(233, 70, 41);
+    font-size: medium;
+    position: absolute;
+    left:800px;
+    top:220px;
+}
 ul li a{
     text-decoration: none;
     color: rgb(250, 249, 249);
@@ -71,7 +87,7 @@ ul li a{
     font-weight: bold;
     font-size: 20px;
     font-family: 'Caveat', cursive;
-    margin-left: 20px;    
+    margin-left: 20px; 
 }
 .topic{
     color: cornsilk;
@@ -83,8 +99,8 @@ ul li a{
     text-align: center;
     font-family: 'Fredoka One', cursive;
 }
-.HH{
-    color: rgb(42, 216, 187);
+.HY{
+    color:whitesmoke;
     text-align: center;
 }
 .row{
@@ -123,7 +139,6 @@ ul li a{
     border-radius: 6px;
     box-shadow: 3px 3px 10px 2px  rgb(233, 245, 124);
 }
-
 .row > img:hover {
     transform: scale(1.1);
 }
@@ -170,6 +185,93 @@ ul li a{
     font-family: 'Fredoka One', cursive;
     font-weight: bold;
 }
+.row1{
+    display:flex;
+    justify-content: space-evenly;
+    overflow-y: hidden;
+}
+
+.row1 .x1 > img {
+    margin: 10px;
+    transition: transform 0.4s;
+    border-radius: 6px;
+    box-shadow: 3px 3px 10px 2px   rgb(233, 245, 124);
+}
+.row1 .x2 > img {
+    margin: 10px;
+    transition: transform 0.4s;
+    border-radius: 6px;
+    box-shadow: 3px 3px 10px 2px   rgb(233, 245, 124);
+}
+.row1 .x3 > img {
+    margin: 10px;
+    transition: transform 0.4s;
+    border-radius: 6px;
+    box-shadow: 3px 3px 10px 2px   rgb(233, 245, 124);
+}
+.row1 .x4 > img {
+    margin: 10px;
+    transition: transform 0.4s;
+    border-radius: 6px;
+    box-shadow: 3px 3px 10px 2px   rgb(233, 245, 124);
+}
+.row1 .x5 > img {
+    margin: 10px;
+    transition: transform 0.4s;
+    border-radius: 6px;
+    box-shadow: 3px 3px 10px 2px  rgb(233, 245, 124);
+}
+.row1 > img:hover {
+    transform: scale(1.1);
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.x1{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(73, 150, 107);
+    font-family: 'Fredoka One', cursive;
+    font-weight: bold;
+    font-size: medium;
+}
+.x2{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    color:rgb(73, 150, 107);
+    font-family: 'Fredoka One', cursive;
+    font-weight: bold;
+    font-size: medium;
+}
+.x3{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(73, 150, 107);
+    font-family: 'Fredoka One', cursive;
+    font-weight: bold;
+    font-size: medium;
+}
+.x4{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(73, 150, 107);
+    font-family: 'Fredoka One', cursive;
+    font-weight: bold;
+    font-size: medium;
+}
+.x5{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(73, 150, 107);
+    font-family: 'Fredoka One', cursive;
+    font-weight: bold;
+    font-size: medium;
+}
 @media (max-width:320px) and (max-width:480px){
     .row{
         width:100%;
@@ -180,3 +282,5 @@ ul li a{
         margin:0px;
     }
 }
+
+ 
