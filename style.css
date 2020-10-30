@@ -2,8 +2,7 @@
     margin: 0px;
     margin-right:0px;
     box-sizing: border-box;
-    padding: 0;
-    color: white;
+    padding: 0px;
 }
 body{
     background-color: black;
@@ -28,18 +27,18 @@ body{
 }
 .logo h5{
     position: absolute;
-    left:900px;
+    left:700px;
     top:55px;
 }
 .info {
     position: absolute;
     left:1030px;
-    top:35px;
+    top:15px;
 }
 .info1 {
     position: absolute;
-    left:1070px;
-    top:40px;
+    left:1050px;
+    top:36px;
 }
 
 ul li{
@@ -49,6 +48,10 @@ ul li{
 
 ul li a:hover{
     background-color:rgb(252, 248, 248);
+    color:rgb(10, 0, 0);
+}
+ul li.active a{
+    background-color: rgb(247, 244, 244);
     color: rgb(5, 0, 0);
 }
 nav a{
@@ -67,15 +70,15 @@ header{
     color: rgb(233, 70, 41);
     font-size: medium;
     position: absolute;
-    left:85px;
-    top:20px;
+    left:775px;
+    top:200px;
 }
 .B{
     color:rgb(233, 70, 41);
     font-size: medium;
     position: absolute;
-    left:85px;
-    top:20px;
+    left:800px;
+    top:220px;
 }
 ul li a{
     text-decoration: none;
@@ -276,13 +279,10 @@ ul li a{
 @media (max-width:320px) and (max-width:480px){
     .row{
         width:100%;
+        height: 50%;
     }
-    .row1{
-        width:100%;
     header{
         width:100%;
         margin:0px;
     }
 }
-
-    
