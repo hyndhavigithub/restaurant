@@ -28,18 +28,18 @@ body{
 }
 .logo h5{
     position: absolute;
-    left:200px;
+    left:900px;
     top:55px;
 }
 .info {
     position: absolute;
-    left:300px;
-    top:15px;
+    left:1030px;
+    top:35px;
 }
 .info1 {
     position: absolute;
-    left:300px;
-    top:36px;
+    left:1070px;
+    top:40px;
 }
 
 ul li{
